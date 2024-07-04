@@ -1,0 +1,12 @@
+package com.bd.cl3.servicio;
+
+public interface IProductoServicio {
+
+	//declaro los metodos
+	public List<TblProducto> ListadoProductos();
+	public void RegistrarProducto(TblProducto producto);
+	public TblProducto BuscarporId(Integer id);
+	public void Eliminar(Integer id);
+	
+	
+} //fin de la interface

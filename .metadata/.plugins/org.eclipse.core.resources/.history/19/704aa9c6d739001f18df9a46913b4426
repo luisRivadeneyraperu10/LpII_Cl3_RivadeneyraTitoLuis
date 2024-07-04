@@ -1,0 +1,28 @@
+package com.bd.cl3.modelo;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="tbl_productocl3")
+public class TblProducto {
+
+	@Id
+
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+
+	private int idproductocl3; 
+	private String nombrecl3; 
+	private double precioventacl3; 
+	 private int stock;
+	 private double preciocompcl3; 
+	 private String estadocl3;
+	 private String descripcl3; 
+	
+	
+	
+	
+}

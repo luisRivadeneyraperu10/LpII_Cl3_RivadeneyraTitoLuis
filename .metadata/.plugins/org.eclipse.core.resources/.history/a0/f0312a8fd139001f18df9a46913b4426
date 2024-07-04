@@ -1,0 +1,17 @@
+package com.bd.cl3.controlador;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class MensajeControlador {
+
+	//creamos metodo para ver archivo
+	@GetMapping("/mensaje")
+	public String mensaje() {
+		
+		//retornamos hacia la vista
+		return "mensaje";
+	}//fin del metodo
+	
+	
+}// fin de la clase

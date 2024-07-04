@@ -1,0 +1,15 @@
+package com.bd.cl3.controlador;
+
+@Controller
+public class MensajeControlador {
+
+	//creamos metodo para ver archivo
+	
+	public String mensaje() {
+		
+		//retornamos hacia la vista
+		return "mensaje";
+	}//fin del metodo
+	
+	
+}// fin de la clase
